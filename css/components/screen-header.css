@@ -12,3 +12,11 @@
 .screen-header__icons span:not(:first-child) {
   margin-left: 20px;
 }
+.screen-header__icon {
+  position: relative;
+  display: inline-block;
+}
+.screen-header__notification {
+  position: absolute;
+  top: -5px;
+}
