@@ -1,0 +1,15 @@
+.user-component__subtitle {
+  display: flex;
+  gap: 5px;
+}
+.user-component__subtitle-badge {
+  border: 1px solid tomato;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  color: tomato;
+  font-weight: 600;
+}
