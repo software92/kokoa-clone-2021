@@ -138,3 +138,46 @@
 .reply__column button:active {
   outline: none;
 }
+
+.main-chat {
+  animation: fadeIn 1s ease-in-out;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes showMsg {
+  from {
+    opacity: 0;
+    transform: translateX(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.message-row {
+  animation: showMsg 1s ease-in-out;
+}
+
+@keyframes showOwnMsg {
+  from {
+    opacity: 0;
+    transform: translateX(30px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+.message-row--own {
+  animation: showOwnMsg 1s ease-in-out;
+}
