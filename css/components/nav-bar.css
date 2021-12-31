@@ -23,4 +23,17 @@
   position: absolute;
   top: -13px;
   right: -10px;
+  animation: messageAlarm 1s ease-in-out;
+}
+
+@keyframes messageAlarm {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: rotateY(180deg);
+  }
+  100% {
+    transform: none;
+  }
 }
