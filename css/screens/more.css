@@ -48,3 +48,21 @@
   font-size: 32px;
   color: white;
 }
+
+.more-screen .icon-row {
+  flex-wrap: wrap;
+  justify-content: start;
+  padding: 0 15px;
+  gap: 50px;
+}
+.more-screen .icon-row__icon {
+  margin-bottom: 50px;
+  position: relative;
+}
+.more-screen .icon-row__icon .badge {
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  top: -30px;
+  right: 0;
+}
