@@ -1,6 +1,7 @@
 .settings__setting {
   opacity: 0.8;
   padding: 20px 0;
+  margin: 0 30px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   font-size: 20px;
   display: flex;
@@ -13,4 +14,23 @@
 }
 .settings__setting-column:last-child {
   opacity: 0.7;
+}
+.settings__setting-column {
+  display: flex;
+}
+.settings__setting-column i + span {
+  margin-right: 10px;
+}
+.settings__setting-column .badge {
+  font-size: 14px;
+}
+
+.settings-list .settings__setting:nth-child(3) {
+  border-bottom: none;
+}
+
+.divider {
+  margin: 25px 0;
+  height: 1px;
+  background-color: rgba(0, 0, 0, 0.2);
 }
