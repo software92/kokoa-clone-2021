@@ -18,7 +18,6 @@
 }
 
 .more-suggestions {
-  margin-top: 50px;
   border-top: var(--main-border);
   padding-top: 40px;
 }
@@ -27,9 +26,10 @@
 }
 .more-suggestions__icons {
   display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
 }
 .more-suggestions__icon {
-  margin-right: 30px;
   display: flex;
   flex-direction: column;
   align-items: center;
