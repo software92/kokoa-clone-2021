@@ -1,4 +1,4 @@
-# Kokoa Clone 2021
+# Kokoa Clone 2021 with nomadcoder
 
 - 목표: Make website Using HTML & CSS
 - Link: [KokoaTalk-Clone](https://software92.github.io/kokoa-clone-2021/)
